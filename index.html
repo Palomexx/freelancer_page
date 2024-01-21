@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midnight</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--El reload sirve para que cargue mas rapido la página, con un mayor performance-->
+
+    <link rel="preload" href="css/styles.css" as="style">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Midnight<span> Youtuber </span></h1>
+    </header>
+
+
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="#" >Inicio</a>
+            <a href="#" >Sobre mí</a>
+            <a href="#" >Clientes</a>
+            <a href="#" >Contacto</a>
+        </nav>
+    </div>
+
+<section class="hero">
+    <div class="contenido-hero">
+           <h2> Oficios <span> Test</span></h2>
+
+           <!--Boton de ubicación-->
+           <div class="ubicacion">
+               <svg 
+                  xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-big-down-line-filled" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                   <path d="M9 5l-.117 .007a1 1 0 0 0 -.883 .993v4.999l-2.586 .001a2 2 0 0 0 -1.414 3.414l6.586 6.586a2 2 0 0 0 2.828 0l6.586 -6.586a2 2 0 0 0 .434 -2.18l-.068 -.145a2 2 0 0 0 -1.78 -1.089l-2.586 -.001v-4.999a1 1 0 0 0 -1 -1h-6z" stroke-width="0" fill="currentColor" />
+                   <path d="M15 2a1 1 0 0 1 .117 1.993l-.117 .007h-6a1 1 0 0 1 -.117 -1.993l.117 -.007h6z" stroke-width="0" fill="currentColor" />
+               </svg>
+               <p>Monterrey, Nuevo León</p>
+            </div>
+        
+         <a class="boton" href="#">Contactar</a>
+    </div> <!--.contenido hero-->
+</section>
+
+    <main>
+        <h2>Test Servicios</h2>
+
+        <section>
+            <h3>Servicio 1</h3>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-badge-left" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M11 17h6l-4 -5l4 -5h-6l-4 5z" />
+            </svg>
+            <p>Descripción de Servicio 1</p>
+           
+        </section>
+
+        <section>
+            <h3>Servicio 2</h3>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-bar-to-down" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M4 20l16 0" />
+                <path d="M12 14l0 -10" />
+                <path d="M12 14l4 -4" />
+                <path d="M12 14l-4 -4" />
+              </svg>
+            <p>Descripción de servicio 2</p>
+        </section>
+
+        <section>
+            <h3>Servicio 3</h3>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-big-down-lines-filled" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M9 8l-.117 .007a1 1 0 0 0 -.883 .993v1.999l-2.586 .001a2 2 0 0 0 -1.414 3.414l6.586 6.586a2 2 0 0 0 2.828 0l6.586 -6.586a2 2 0 0 0 .434 -2.18l-.068 -.145a2 2 0 0 0 -1.78 -1.089l-2.586 -.001v-1.999a1 1 0 0 0 -1 -1h-6z" stroke-width="0" fill="currentColor" />
+                <path d="M15 2a1 1 0 0 1 .117 1.993l-.117 .007h-6a1 1 0 0 1 -.117 -1.993l.117 -.007h6z" stroke-width="0" fill="currentColor" />
+                <path d="M15 5a1 1 0 0 1 .117 1.993l-.117 .007h-6a1 1 0 0 1 -.117 -1.993l.117 -.007h6z" stroke-width="0" fill="currentColor" />
+              </svg>
+            <p>Descripción de Servicio 3</p>
+        </section>
+        
+    </main>
+
+    <section>
+        <h2>Contacto</h2>
+        <form>
+          <fieldset>
+            <legend>Contactanos llenando todos los campos</legend>
+
+            <div>
+             <label>Nombre</label>
+             <input type="text" placeholder="Tu Nombre">  
+            </div>
+
+            <div>
+                <label>Teléfono</label>
+                <input type="tel" placeholder="Tu Teléfono">   
+            </div>
+
+            <div>
+                <label>Correo</label>
+                <input type="email" placeholder="Tu correo">
+            </div>
+
+            <div>
+                <label>Mensaje</label>
+                <textarea>
+                </textarea>
+            </div>
+
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+
+
+          </fieldset>
+
+        </form>
+    </section>
+
+    <footer>
+        <p>Todos los derechos reservados. Nombre cliente</p>
+    </footer>
+
+
+</body>
+</html>
